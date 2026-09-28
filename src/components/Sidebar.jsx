@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
 
 function Sidebar({ isOpen }) {
+
     const menuItems = [
         { name: "Home", path: "/", icon: "bi-house" },
         { name: "About Us", path: "/about", icon: "bi-building" },
         { name: "Products", path: "/products", icon: "bi-gear" },
-        { name: "Infrastructure", path: "/infrastructure", icon: "bi-buildings" },
+        { name: "Major Customers", path: "/major-customers", icon: "bi-people" },
         { name: "Quality", path: "/quality", icon: "bi-patch-check" },
         { name: "Industries", path: "/industries", icon: "bi-tools" },
         { name: "Contact Us", path: "/contact", icon: "bi-envelope" }
@@ -17,15 +18,15 @@ function Sidebar({ isOpen }) {
             <div className="sidebar-header">
 
                 <div className="company-logo">
-                    PS
+                    VE
                 </div>
 
                 <div>
-                    <h5>PS INDUSTRIAL</h5>
-                    <small>COMPONENTS PVT. LTD.</small>
+                    <h5>Vedant Enterprises</h5>
                 </div>
 
             </div>
+
 
             <div className="sidebar-menu">
 
@@ -34,6 +35,7 @@ function Sidebar({ isOpen }) {
                 </p>
 
                 {menuItems.map((item) => (
+
                     <NavLink
                         key={item.path}
                         to={item.path}
@@ -41,12 +43,19 @@ function Sidebar({ isOpen }) {
                             `sidebar-link ${isActive ? "active" : ""}`
                         }
                     >
+
                         <i className={`bi ${item.icon}`}></i>
-                        <span>{item.name}</span>
+
+                        <span>
+                            {item.name}
+                        </span>
+
                     </NavLink>
+
                 ))}
 
             </div>
+
 
             <div className="sidebar-bottom">
 

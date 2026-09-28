@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 function Contact() {
-
     const [formData, setFormData] = useState({
         name: "",
         company: "",
@@ -21,10 +20,10 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const whatsappNumber = "918380039896";
+        const whatsappNumber = "917774962542";
 
         const whatsappMessage = `
-New Requirement - PS Industrial Components Pvt. Ltd.
+New Requirement - Vedant Enterprises
 
 Name: ${formData.name}
 Company: ${formData.company}
@@ -34,7 +33,7 @@ Requirement: ${formData.requirement}
 
 Message:
 ${formData.message}
-        `;
+`;
 
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
@@ -64,12 +63,11 @@ ${formData.message}
                 </h1>
 
                 <p>
-                    Get in touch with PS Industrial Components
-                    for industrial component requirements.
+                    Get in touch with Vedant Enterprises for
+                    sheet metal press tools and precision tooling requirements.
                 </p>
 
             </section>
-
 
             <section className="contact-section">
 
@@ -89,97 +87,87 @@ ${formData.message}
                             </h2>
 
                             <p className="inner-description">
-                                Have a requirement for industrial components,
-                                customized parts or engineering solutions?
+                                Have a requirement for sheet metal press tools,
+                                customized tooling or precision manufacturing?
                                 Contact our team to discuss your requirement.
                             </p>
-
 
                             <div className="contact-info">
 
                                 <div className="contact-info-item">
+                                    <div className="contact-icon">
+                                        <i className="bi bi-person"></i>
+                                    </div>
 
+                                    <div>
+                                        <h4>Contact Person</h4>
+                                        <p>Ganesh Shende</p>
+                                    </div>
+                                </div>
+
+                                <div className="contact-info-item">
                                     <div className="contact-icon">
                                         <i className="bi bi-building"></i>
                                     </div>
 
                                     <div>
-                                        <h4>
-                                            Company
-                                        </h4>
-
-                                        <p>
-                                            PS Industrial Components Pvt. Ltd.
-                                        </p>
+                                        <h4>Company</h4>
+                                        <p>Vedant Enterprises</p>
                                     </div>
-
                                 </div>
 
-
                                 <div className="contact-info-item">
-
                                     <div className="contact-icon">
                                         <i className="bi bi-geo-alt"></i>
                                     </div>
 
                                     <div>
-                                        <h4>
-                                            Location
-                                        </h4>
-
+                                        <h4>Address</h4>
                                         <p>
-                                            MIDC, Pune, Maharashtra
+                                            Sr. No. 23, Hanuman Nagar Bhagat Wasti,
+                                            Near Prapti Hotel, Behind Dnyankamal Pressing,
+                                            MIDC, Bhosari, Pune, Maharashtra
                                         </p>
                                     </div>
-
                                 </div>
 
-
                                 <div className="contact-info-item">
-
                                     <div className="contact-icon">
-                                        <i className="bi bi-whatsapp"></i>
+                                        <i className="bi bi-telephone"></i>
                                     </div>
 
                                     <div>
-                                        <h4>
-                                            WhatsApp
-                                        </h4>
-
-                                        <p>
-                                            +91 83800 39896
-                                        </p>
+                                        <h4>Phone</h4>
+                                        <p>+91 77749 62542</p>
+                                        <p>+91 77765 62543</p>
                                     </div>
-
                                 </div>
 
-
                                 <div className="contact-info-item">
-
                                     <div className="contact-icon">
-                                        <i className="bi bi-clock"></i>
+                                        <i className="bi bi-envelope"></i>
                                     </div>
 
                                     <div>
-                                        <h4>
-                                            Business Hours
-                                        </h4>
+                                        <h4>Email</h4>
+                                        <p>vedantenterprises0353@gmail.com</p>
+                                    </div>
+                                </div>
 
-                                        <p>
-                                            Monday - Saturday
-                                        </p>
-
-                                        <p>
-                                            9:00 AM - 6:00 PM
-                                        </p>
+                                <div className="contact-info-item">
+                                    <div className="contact-icon">
+                                        <i className="bi bi-file-earmark-text"></i>
                                     </div>
 
+                                    <div>
+                                        <h4>GST No.</h4>
+                                        <p>27NESPS0552A1Z5</p>
+                                    </div>
                                 </div>
 
                             </div>
 
                         </div>
-
 
                         <div className="col-lg-7">
 
@@ -199,10 +187,7 @@ ${formData.message}
                                     <div className="row g-3">
 
                                         <div className="col-md-6">
-
-                                            <label>
-                                                Your Name
-                                            </label>
+                                            <label>Your Name</label>
 
                                             <input
                                                 type="text"
@@ -213,15 +198,10 @@ ${formData.message}
                                                 onChange={handleChange}
                                                 required
                                             />
-
                                         </div>
 
-
                                         <div className="col-md-6">
-
-                                            <label>
-                                                Company Name
-                                            </label>
+                                            <label>Company Name</label>
 
                                             <input
                                                 type="text"
@@ -231,15 +211,10 @@ ${formData.message}
                                                 value={formData.company}
                                                 onChange={handleChange}
                                             />
-
                                         </div>
 
-
                                         <div className="col-md-6">
-
-                                            <label>
-                                                Email Address
-                                            </label>
+                                            <label>Email Address</label>
 
                                             <input
                                                 type="email"
@@ -250,15 +225,10 @@ ${formData.message}
                                                 onChange={handleChange}
                                                 required
                                             />
-
                                         </div>
 
-
                                         <div className="col-md-6">
-
-                                            <label>
-                                                Phone Number
-                                            </label>
+                                            <label>Phone Number</label>
 
                                             <input
                                                 type="tel"
@@ -269,50 +239,37 @@ ${formData.message}
                                                 onChange={handleChange}
                                                 required
                                             />
-
                                         </div>
 
-
                                         <div className="col-12">
-
-                                            <label>
-                                                Requirement
-                                            </label>
+                                            <label>Requirement</label>
 
                                             <input
                                                 type="text"
                                                 name="requirement"
                                                 className="form-control"
-                                                placeholder="Enter component requirement"
+                                                placeholder="e.g. Forming Tool, Blanking Tool, Piercing Tool"
                                                 value={formData.requirement}
                                                 onChange={handleChange}
                                                 required
                                             />
-
                                         </div>
 
-
                                         <div className="col-12">
-
-                                            <label>
-                                                Message
-                                            </label>
+                                            <label>Message</label>
 
                                             <textarea
                                                 name="message"
                                                 className="form-control"
                                                 rows="5"
-                                                placeholder="Tell us about your requirement"
+                                                placeholder="Tell us about your tooling requirement"
                                                 value={formData.message}
                                                 onChange={handleChange}
                                                 required
                                             ></textarea>
-
                                         </div>
 
-
                                         <div className="col-12">
-
                                             <button
                                                 type="submit"
                                                 className="contact-submit-btn"
@@ -320,7 +277,6 @@ ${formData.message}
                                                 Send Requirement
                                                 <i className="bi bi-whatsapp"></i>
                                             </button>
-
                                         </div>
 
                                     </div>
@@ -337,7 +293,6 @@ ${formData.message}
 
             </section>
 
-
             <section className="contact-bottom">
 
                 <div className="container">
@@ -347,12 +302,16 @@ ${formData.message}
                         <i className="bi bi-geo-alt-fill"></i>
 
                         <div>
-                            <h3>
-                                PS Industrial Components Pvt. Ltd.
-                            </h3>
+                            <h3>Vedant Enterprises</h3>
 
                             <p>
-                                MIDC, Pune, Maharashtra
+                                Sr. No. 23, Hanuman Nagar Bhagat Wasti,
+                                Near Prapti Hotel, Behind Dnyankamal Pressing,
+                                MIDC, Bhosari, Pune, Maharashtra
+                            </p>
+
+                            <p>
+                                GST No: 27NESPS0552A1Z5
                             </p>
                         </div>
 

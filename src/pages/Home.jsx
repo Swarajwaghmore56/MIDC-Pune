@@ -5,31 +5,33 @@ function Home() {
         <div className="home-page">
 
             <section className="machinery-section">
+
                 <div className="container-fluid">
+
                     <div className="row align-items-center g-5">
 
                         <div className="col-lg-6">
 
                             <span className="section-tag">
-                                INDUSTRIAL MANUFACTURING
+                                SHEET METAL PRESS TOOLS
                             </span>
 
                             <h1 className="machinery-title">
-                                Precision Engineering.
-                                <span> Trusted Industrial Components.</span>
+                                Precision Press Tools.
+                                <span> Reliable Tooling Solutions.</span>
                             </h1>
 
                             <p className="machinery-text">
-                                PS Industrial Components Pvt. Ltd. is a
-                                Pune-based industrial components manufacturing
-                                company providing reliable, precision-engineered
-                                components and customized manufacturing solutions.
+                                Vedant Enterprises is a small-scale manufacturer
+                                specializing in sheet metal press tools and
+                                precision tooling solutions for industrial
+                                manufacturing requirements.
                             </p>
 
                             <p className="machinery-text">
-                                Since <strong>2012</strong>, we have been focused
-                                on quality manufacturing, consistent performance,
-                                and long-term customer relationships.
+                                Our capabilities include forming, blanking,
+                                piercing and bending tools, supported by
+                                reliable turning and hardening operations.
                             </p>
 
                             <div className="hero-buttons">
@@ -54,17 +56,31 @@ function Home() {
                             <div className="row g-3 mt-4">
 
                                 <div className="col-sm-6">
+
                                     <div className="stat-card">
-                                        <h2>770+</h2>
-                                        <p>Happy Customers</p>
+
+                                        <h2>4+</h2>
+
+                                        <p>
+                                            Press Tool Types
+                                        </p>
+
                                     </div>
+
                                 </div>
 
                                 <div className="col-sm-6">
+
                                     <div className="stat-card">
-                                        <h2>10+</h2>
-                                        <p>Years of Experience</p>
+
+                                        <h2>2+</h2>
+
+                                        <p>
+                                            Supporting Operations
+                                        </p>
+
                                     </div>
+
                                 </div>
 
                             </div>
@@ -80,12 +96,12 @@ function Home() {
                                     <i className="bi bi-gear-wide-connected"></i>
 
                                     <h3>
-                                        Advanced Machinery
+                                        Precision Tooling
                                     </h3>
 
                                     <p>
-                                        Precision manufacturing for
-                                        demanding industrial applications.
+                                        Reliable press tool manufacturing
+                                        for sheet metal applications.
                                     </p>
 
                                 </div>
@@ -95,7 +111,9 @@ function Home() {
                         </div>
 
                     </div>
+
                 </div>
+
             </section>
 
 
@@ -110,13 +128,13 @@ function Home() {
                         </span>
 
                         <h2>
-                            Engineering You Can Depend On
+                            Precision You Can Depend On
                         </h2>
 
                         <p>
-                            We combine manufacturing expertise, modern
-                            processes and quality-focused production to
-                            deliver dependable industrial components.
+                            We focus on precision manufacturing, consistent
+                            quality and dependable tooling solutions for
+                            sheet metal applications.
                         </p>
 
                     </div>
@@ -124,6 +142,7 @@ function Home() {
                     <div className="row g-4">
 
                         <div className="col-lg-4 col-md-6">
+
                             <div className="feature-card">
 
                                 <i className="bi bi-patch-check"></i>
@@ -133,48 +152,53 @@ function Home() {
                                 </h4>
 
                                 <p>
-                                    Every component is manufactured with
-                                    attention to precision, durability,
-                                    and consistent quality.
+                                    Press tools are manufactured with
+                                    attention to accuracy, consistency
+                                    and reliable performance.
                                 </p>
 
                             </div>
+
                         </div>
 
                         <div className="col-lg-4 col-md-6">
+
                             <div className="feature-card">
 
                                 <i className="bi bi-tools"></i>
 
                                 <h4>
-                                    Customized Solutions
+                                    Customized Tooling
                                 </h4>
 
                                 <p>
-                                    Customized component manufacturing
-                                    solutions designed around specific
-                                    industrial requirements.
+                                    Tooling solutions can be developed
+                                    according to specific sheet metal
+                                    component requirements.
                                 </p>
 
                             </div>
+
                         </div>
 
                         <div className="col-lg-4 col-md-6">
+
                             <div className="feature-card">
 
-                                <i className="bi bi-buildings"></i>
+                                <i className="bi bi-bullseye"></i>
 
                                 <h4>
-                                    Industrial Expertise
+                                    Precision & Consistency
                                 </h4>
 
                                 <p>
-                                    Reliable engineering solutions for
-                                    multiple industrial sectors and
-                                    applications.
+                                    Our manufacturing approach focuses on
+                                    dimensional accuracy and consistent
+                                    tooling quality.
                                 </p>
 
                             </div>
+
                         </div>
 
                     </div>
@@ -197,7 +221,7 @@ function Home() {
                                 <i className="bi bi-building-gear"></i>
 
                                 <span>
-                                    EST. 2012
+                                    VEDANT ENTERPRISES
                                 </span>
 
                             </div>
@@ -211,22 +235,21 @@ function Home() {
                             </span>
 
                             <h2 className="home-heading">
-                                Building Better Components
-                                For Modern Industry
+                                Precision Tooling
+                                For Sheet Metal Applications
                             </h2>
 
                             <p className="home-description">
-                                PS Industrial Components Pvt. Ltd. is
-                                committed to delivering dependable
-                                industrial components for businesses
-                                that demand precision and performance.
+                                Vedant Enterprises is a small-scale
+                                manufacturer specializing in sheet metal
+                                press tools and precision tooling solutions.
                             </p>
 
                             <p className="home-description">
-                                From component manufacturing to customized
-                                engineering requirements, our approach
-                                focuses on quality, consistency and
-                                customer satisfaction.
+                                Our tooling capabilities include forming,
+                                blanking, piercing and bending, with
+                                supporting turning and hardening operations
+                                through reliable suppliers.
                             </p>
 
                             <Link
@@ -257,32 +280,33 @@ function Home() {
                         </span>
 
                         <h2>
-                            Industrial Components
+                            Sheet Metal Press Tools
                         </h2>
 
                         <p>
-                            Engineered component solutions for
-                            demanding industrial applications.
+                            Precision tooling solutions designed for
+                            different sheet metal manufacturing applications.
                         </p>
 
                     </div>
 
                     <div className="row g-4">
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-3 col-md-6">
+
                             <div className="product-card">
 
                                 <div className="product-icon">
-                                    <i className="bi bi-gear"></i>
+                                    <i className="bi bi-box"></i>
                                 </div>
 
                                 <h4>
-                                    Precision Gears
+                                    Forming Tools
                                 </h4>
 
                                 <p>
-                                    Precision-manufactured gears designed
-                                    for reliable industrial performance.
+                                    Tooling solutions for shaping and
+                                    forming sheet metal components.
                                 </p>
 
                                 <Link to="/products">
@@ -291,22 +315,24 @@ function Home() {
                                 </Link>
 
                             </div>
+
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-3 col-md-6">
+
                             <div className="product-card">
 
                                 <div className="product-icon">
-                                    <i className="bi bi-circle"></i>
+                                    <i className="bi bi-scissors"></i>
                                 </div>
 
                                 <h4>
-                                    Industrial Shafts
+                                    Blanking Tools
                                 </h4>
 
                                 <p>
-                                    Durable shafts manufactured for
-                                    industrial machinery and equipment.
+                                    Press tooling designed for accurate
+                                    blanking operations.
                                 </p>
 
                                 <Link to="/products">
@@ -315,22 +341,24 @@ function Home() {
                                 </Link>
 
                             </div>
+
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-3 col-md-6">
+
                             <div className="product-card">
 
                                 <div className="product-icon">
-                                    <i className="bi bi-nut"></i>
+                                    <i className="bi bi-bullseye"></i>
                                 </div>
 
                                 <h4>
-                                    Machined Components
+                                    Piercing Tools
                                 </h4>
 
                                 <p>
-                                    Customized machined components built
-                                    according to specific requirements.
+                                    Precision tooling for creating holes
+                                    and openings in sheet metal components.
                                 </p>
 
                                 <Link to="/products">
@@ -339,6 +367,33 @@ function Home() {
                                 </Link>
 
                             </div>
+
+                        </div>
+
+                        <div className="col-lg-3 col-md-6">
+
+                            <div className="product-card">
+
+                                <div className="product-icon">
+                                    <i className="bi bi-layers"></i>
+                                </div>
+
+                                <h4>
+                                    Bending Tools
+                                </h4>
+
+                                <p>
+                                    Tooling solutions for accurate sheet
+                                    metal bending and forming operations.
+                                </p>
+
+                                <Link to="/products">
+                                    View Product
+                                    <i className="bi bi-arrow-right"></i>
+                                </Link>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -355,63 +410,99 @@ function Home() {
                     <div className="home-section-heading">
 
                         <span className="section-tag">
-                            INDUSTRIES WE SERVE
+                            OUR CAPABILITIES
                         </span>
 
                         <h2>
-                            Supporting Multiple Industries
+                            Tooling & Manufacturing Capabilities
                         </h2>
 
                     </div>
 
                     <div className="row g-4">
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
+
                             <div className="industry-card">
 
-                                <i className="bi bi-car-front"></i>
+                                <i className="bi bi-box"></i>
 
                                 <h4>
-                                    Automotive
+                                    Forming
                                 </h4>
 
                             </div>
+
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
+
                             <div className="industry-card">
 
-                                <i className="bi bi-gear-wide-connected"></i>
+                                <i className="bi bi-scissors"></i>
 
                                 <h4>
-                                    Engineering
+                                    Blanking
                                 </h4>
 
                             </div>
+
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
+
                             <div className="industry-card">
 
-                                <i className="bi bi-truck"></i>
+                                <i className="bi bi-bullseye"></i>
 
                                 <h4>
-                                    Heavy Machinery
+                                    Piercing
                                 </h4>
 
                             </div>
+
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
+
                             <div className="industry-card">
 
-                                <i className="bi bi-lightning-charge"></i>
+                                <i className="bi bi-layers"></i>
 
                                 <h4>
-                                    Energy
+                                    Bending
                                 </h4>
 
                             </div>
+
+                        </div>
+
+                        <div className="col-lg-4 col-md-6">
+
+                            <div className="industry-card">
+
+                                <i className="bi bi-gear"></i>
+
+                                <h4>
+                                    Turning
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                        <div className="col-lg-4 col-md-6">
+
+                            <div className="industry-card">
+
+                                <i className="bi bi-fire"></i>
+
+                                <h4>
+                                    Hardening
+                                </h4>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -430,22 +521,32 @@ function Home() {
                         <div className="col-lg-7">
 
                             <span className="section-tag">
-                                OUR INFRASTRUCTURE
+                                OUR CUSTOMERS
                             </span>
 
                             <h2 className="home-heading">
-                                Modern Manufacturing
-                                Infrastructure
+                                Trusted Customer
+                                Relationships
                             </h2>
 
                             <p className="home-description">
-                                Our manufacturing environment is designed
-                                to support precision production, quality
-                                inspection and efficient industrial
-                                component manufacturing.
+                                Vedant Enterprises works with organizations
+                                across the engineering and tooling sector,
+                                focusing on dependable tooling solutions
+                                and long-term professional relationships.
                             </p>
 
                             <div className="infrastructure-list">
+
+                                <div>
+                                    <i className="bi bi-check-circle-fill"></i>
+                                    Reliable Tooling Solutions
+                                </div>
+
+                                <div>
+                                    <i className="bi bi-check-circle-fill"></i>
+                                    Consistent Quality
+                                </div>
 
                                 <div>
                                     <i className="bi bi-check-circle-fill"></i>
@@ -454,26 +555,16 @@ function Home() {
 
                                 <div>
                                     <i className="bi bi-check-circle-fill"></i>
-                                    Quality Inspection
-                                </div>
-
-                                <div>
-                                    <i className="bi bi-check-circle-fill"></i>
-                                    Modern Equipment
-                                </div>
-
-                                <div>
-                                    <i className="bi bi-check-circle-fill"></i>
-                                    Efficient Production
+                                    Long-Term Relationships
                                 </div>
 
                             </div>
 
                             <Link
-                                to="/infrastructure"
+                                to="/major-customers"
                                 className="learn-btn"
                             >
-                                Explore Infrastructure
+                                View Major Customers
                                 <i className="bi bi-arrow-right"></i>
                             </Link>
 
@@ -483,14 +574,14 @@ function Home() {
 
                             <div className="factory-box">
 
-                                <i className="bi bi-buildings"></i>
+                                <i className="bi bi-people"></i>
 
                                 <h3>
-                                    Pune Manufacturing Facility
+                                    Major Customers
                                 </h3>
 
                                 <p>
-                                    MIDC, Pune, Maharashtra
+                                    Engineering & Tooling Industry
                                 </p>
 
                             </div>
@@ -516,12 +607,12 @@ function Home() {
 
                         <h2>
                             Looking For Reliable
-                            Industrial Components?
+                            Sheet Metal Press Tools?
                         </h2>
 
                         <p>
-                            Discuss your manufacturing requirements
-                            with our team.
+                            Discuss your tooling requirements
+                            with Vedant Enterprises.
                         </p>
 
                         <Link
@@ -543,4 +634,3 @@ function Home() {
 }
 
 export default Home;
-

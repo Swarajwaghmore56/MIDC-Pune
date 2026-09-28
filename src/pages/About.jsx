@@ -9,11 +9,11 @@ function About() {
                 </span>
 
                 <h1>
-                    Engineering Excellence Since 2012
+                    Precision Sheet Metal Press Tools
                 </h1>
 
                 <p>
-                    Reliable industrial components built with
+                    Reliable tooling solutions built with
                     precision, consistency and quality.
                 </p>
 
@@ -33,15 +33,15 @@ function About() {
                                 <i className="bi bi-building-gear"></i>
 
                                 <span>
-                                    PS INDUSTRIAL
+                                    VEDANT
                                 </span>
 
                                 <strong>
-                                    COMPONENTS PVT. LTD.
+                                    ENTERPRISES
                                 </strong>
 
                                 <small>
-                                    ESTABLISHED 2012
+                                    SHEET METAL PRESS TOOLS
                                 </small>
 
                             </div>
@@ -56,30 +56,30 @@ function About() {
                             </span>
 
                             <h2 className="about-heading">
-                                A Trusted Industrial
+                                A Trusted Sheet Metal Press Tool
                                 Manufacturing Partner
                             </h2>
 
                             <p className="about-description">
-                                PS Industrial Components Pvt. Ltd. is a
-                                Pune-based industrial components manufacturing
-                                company focused on delivering reliable,
-                                precision-engineered solutions for industrial
+                                Vedant Enterprises is a small-scale manufacturer
+                                specializing in sheet metal press tools and
+                                precision tooling solutions for industrial
                                 applications.
                             </p>
 
                             <p className="about-description">
-                                Since 2012, our focus has been on manufacturing
-                                quality components, maintaining consistent
-                                production standards and developing long-term
-                                relationships with our customers.
+                                We specialize in manufacturing a range of sheet
+                                metal press tools, including Forming Tools,
+                                Blanking Tools, Piercing Tools and Bending Tools,
+                                designed to meet specific production requirements.
                             </p>
 
                             <p className="about-description">
-                                We support businesses with standard as well as
-                                customized component manufacturing requirements,
-                                combining engineering knowledge with
-                                quality-focused production processes.
+                                In addition to our manufacturing capabilities,
+                                we work with genuine and reliable suppliers for
+                                Turning and Hardening operations, helping us
+                                provide complete tooling solutions with a focus
+                                on quality and consistency.
                             </p>
 
                         </div>
@@ -101,33 +101,14 @@ function About() {
 
                             <div className="about-stat-card">
 
-                                <i className="bi bi-calendar-check"></i>
+                                <i className="bi bi-tools"></i>
 
                                 <h2>
-                                    2012
+                                    4+
                                 </h2>
 
                                 <p>
-                                    Established
-                                </p>
-
-                            </div>
-
-                        </div>
-
-
-                        <div className="col-lg-3 col-md-6">
-
-                            <div className="about-stat-card">
-
-                                <i className="bi bi-people"></i>
-
-                                <h2>
-                                    770+
-                                </h2>
-
-                                <p>
-                                    Happy Customers
+                                    Press Tool Types
                                 </p>
 
                             </div>
@@ -142,11 +123,30 @@ function About() {
                                 <i className="bi bi-gear-wide-connected"></i>
 
                                 <h2>
-                                    10+
+                                    2+
                                 </h2>
 
                                 <p>
-                                    Years Experience
+                                    Supporting Operations
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="col-lg-3 col-md-6">
+
+                            <div className="about-stat-card">
+
+                                <i className="bi bi-building"></i>
+
+                                <h2>
+                                    Small Scale
+                                </h2>
+
+                                <p>
+                                    Manufacturing Unit
                                 </p>
 
                             </div>
@@ -194,9 +194,9 @@ function About() {
                         </h2>
 
                         <p>
-                            Our manufacturing approach focuses on
-                            dependable products, consistent processes
-                            and customer-oriented engineering solutions.
+                            Our manufacturing approach focuses on dependable
+                            tooling, consistent production and customer-oriented
+                            engineering solutions.
                         </p>
 
                     </div>
@@ -217,9 +217,9 @@ function About() {
                                 </h3>
 
                                 <p>
-                                    To deliver reliable and precision-engineered
-                                    industrial components that support our
-                                    customers' manufacturing requirements.
+                                    To manufacture reliable and precision-engineered
+                                    sheet metal press tools that support our
+                                    customers' production requirements.
                                 </p>
 
                             </div>
@@ -240,9 +240,10 @@ function About() {
                                 </h3>
 
                                 <p>
-                                    To build a trusted industrial manufacturing
-                                    brand known for quality, engineering
-                                    capability and dependable customer service.
+                                    To build Vedant Enterprises as a trusted
+                                    name in sheet metal press tool manufacturing
+                                    through quality, consistency and dependable
+                                    service.
                                 </p>
 
                             </div>
@@ -263,9 +264,9 @@ function About() {
                                 </h3>
 
                                 <p>
-                                    Quality, reliability, transparency,
-                                    continuous improvement and long-term
-                                    customer relationships guide our work.
+                                    Quality, reliability, precision, transparency
+                                    and long-term customer relationships guide
+                                    our work.
                                 </p>
 
                             </div>
@@ -292,42 +293,46 @@ function About() {
                             </span>
 
                             <h2 className="home-heading">
-                                Supporting Diverse
-                                Industrial Requirements
+                                Sheet Metal Press Tool
+                                Manufacturing
                             </h2>
 
                             <p className="home-description">
-                                Our capabilities are structured to support
-                                industrial customers looking for dependable
-                                component manufacturing and customized
-                                engineering solutions.
+                                Vedant Enterprises specializes in manufacturing
+                                sheet metal press tools for different industrial
+                                production requirements.
                             </p>
 
                             <div className="capability-list">
 
                                 <div>
                                     <i className="bi bi-check-circle-fill"></i>
-                                    Precision Component Manufacturing
+                                    Forming Tools
                                 </div>
 
                                 <div>
                                     <i className="bi bi-check-circle-fill"></i>
-                                    Customized Industrial Components
+                                    Blanking Tools
                                 </div>
 
                                 <div>
                                     <i className="bi bi-check-circle-fill"></i>
-                                    Machining & Fabrication Support
+                                    Piercing Tools
                                 </div>
 
                                 <div>
                                     <i className="bi bi-check-circle-fill"></i>
-                                    Quality Inspection
+                                    Bending Tools
                                 </div>
 
                                 <div>
                                     <i className="bi bi-check-circle-fill"></i>
-                                    Industrial Application Support
+                                    Turning Operations
+                                </div>
+
+                                <div>
+                                    <i className="bi bi-check-circle-fill"></i>
+                                    Hardening Operations
                                 </div>
 
                             </div>
@@ -342,12 +347,13 @@ function About() {
                                 <i className="bi bi-gear-wide-connected"></i>
 
                                 <h3>
-                                    Precision Manufacturing
+                                    Precision Tooling Solutions
                                 </h3>
 
                                 <p>
-                                    Engineering solutions designed around
-                                    performance, consistency and reliability.
+                                    Reliable press tool manufacturing supported
+                                    by genuine suppliers for Turning and Hardening
+                                    operations.
                                 </p>
 
                             </div>
@@ -373,11 +379,11 @@ function About() {
 
                         <h2>
                             Let's Build Reliable
-                            Industrial Solutions Together
+                            Tooling Solutions Together
                         </h2>
 
                         <p>
-                            Have a component requirement?
+                            Have a press tool requirement?
                             Talk to our team today.
                         </p>
 
